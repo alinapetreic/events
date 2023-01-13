@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <a href="./home.html">
+                <img src="../images/logo.jpg" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    Acasa
+                </li>
+                <li>
+                    Despre noi
+                </li>
+                <li>
+                    Portofoliu
+                </li>
+                <li>
+                    Servicii
+                </li>
+                <li>
+                    <a href="./testimonials.html">
+                        Testimoniale
+                    </a>
+                </li>
+                <li>
+                    <a href="contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <h2>Contact</h2>
+            <div class="form-group">
+                <input type="text" id="firstname" name="firstname" placeholder="Introdu nume..." required>
+                <input type="text" id="lastname" name="lastname" placeholder="Introdu prenume..." required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Introdu email..." required>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="Introdu nr telefon..." required>
+            </div>
+            <input type="text" id="subject" name="subject" placeholder="Introdu subiect..." required>
+            <textarea rows="3" placeholder="Introdu mesaj..." required></textarea>
+            <div class="wrapper">
+                <button type="submit">Trimite</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

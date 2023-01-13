@@ -1,0 +1,46 @@
+.presentation-section {
+    position: relative;
+    height: calc(100vh - 90px);
+}
+
+.presentation-section video {
+    object-fit: cover;
+    width: 100vw;
+    height: calc(100vh - 90px);
+    position: fixed;
+    top: 90px;
+    left: 0;
+}
+
+.presentation-section .content-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+.presentation-section .content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.presentation-section .content:hover {
+    cursor: pointer;
+}
+
+.presentation-section .contact-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-section .contact-button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    color: #fff;
+}

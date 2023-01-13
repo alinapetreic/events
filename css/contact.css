@@ -1,0 +1,55 @@
+main {
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 25px 10px -20px rgb(0 0 0 / 40%), 20px 20px 10px -10px rgb(0 0 0 / 40%);
+    padding: 40px;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+main form h2 {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+main form .form-group{
+    display: flex;
+    gap: 10px;
+}
+
+main form input,
+main form textarea {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+main form textarea {
+    resize: vertical;
+}
+
+main form .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form .wrapper button {
+    background: none;
+    padding: 8px 20px;
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 20px;
+}
+
+main form .wrapper button:hover {
+    cursor: pointer;
+}
